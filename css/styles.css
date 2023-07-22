@@ -64,7 +64,7 @@ ol {
   width: 100%;
   max-width: 1128;
   padding: 0 15px;
-  margin: 0% auto;
+  margin: 0 auto;
 }
 
 img {
@@ -76,8 +76,6 @@ img {
 .header {
   padding-right: 156px;
   padding-left: 156px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -311,7 +309,6 @@ img {
 }
 .team-list {
   display: flex;
-
   gap: 24px;
   padding-right: 156px;
   padding-left: 156px;
