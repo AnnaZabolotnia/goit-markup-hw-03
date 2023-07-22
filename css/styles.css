@@ -311,7 +311,7 @@ img {
 }
 .team-list {
   display: flex;
-  justify-content: space-between;
+
   gap: 24px;
   padding-right: 156px;
   padding-left: 156px;
