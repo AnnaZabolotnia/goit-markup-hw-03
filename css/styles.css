@@ -215,8 +215,6 @@ img {
   justify-content: space-between;
   align-content: stretch;
   gap: 24px;
-  padding-right: 156px;
-  padding-left: 156px;
   width: 100%;
 }
 
@@ -274,8 +272,6 @@ img {
   background-color: var(--color-cloud);
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 .team-title {
   color: var(--color-navy-blue);
