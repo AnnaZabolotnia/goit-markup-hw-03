@@ -377,15 +377,15 @@ img {
 .gallery-btn-list {
   text-align: center;
   display: flex;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   justify-content: center;
-  border-radius: 4px;
   gap: 24px;
 }
 .gallery-btn-item:hover,
 .gallery-btn-item:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
+  border: 1px solid transparent;
 }
 
 .gallery-btn-item {
@@ -398,6 +398,9 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 /* ==============PORTFOLIO============= */
@@ -422,6 +425,13 @@ img {
   margin-top: 32px;
   padding-bottom: 8px;
 }
+.container-galrery-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .gallery-portfolio-text {
   color: var(--color-slate);
   font-size: 16px;
