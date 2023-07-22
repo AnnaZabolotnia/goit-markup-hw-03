@@ -79,7 +79,9 @@ img {
   padding-left: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -89,6 +91,8 @@ img {
   display: flex;
   align-items: center;
   gap: 100px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu {
   display: flex;
@@ -100,6 +104,8 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contacts-menu {
@@ -153,8 +159,6 @@ img {
 
 /* -----------------------HERO----------------------- */
 .hero {
-}
-.hero-wrap {
   background-color: var(--color-navy-blue);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -207,18 +211,19 @@ img {
   display: flex;
   padding-right: 156px;
   padding-left: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-list {
   background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
   align-content: stretch;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advantages-item {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 
 .advantages-subtitle {
