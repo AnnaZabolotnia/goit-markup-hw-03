@@ -276,6 +276,8 @@ img {
   background-color: var(--color-cloud);
   padding-right: 156px;
   padding-left: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: var(--color-navy-blue);
@@ -287,6 +289,13 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.container-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  margin-bottom: 8px;
+  width: 264px;
+}
 .team-name {
   color: var(--color-navy-blue);
   text-align: center;
@@ -294,8 +303,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  margin-bottom: 8px;
 }
 .team-text {
   color: var(--color-slate);
@@ -304,24 +311,25 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
+  gap: 24px;
 }
+
 .link {
 }
 .team-item {
   background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 /* --------------FOOTER-------------- */
 
 .footer {
   background-color: var(--color-navy-blue);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   padding-right: 0%;
   padding-left: 156px;
 }
