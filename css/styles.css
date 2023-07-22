@@ -212,8 +212,8 @@ img {
 .advantages-list {
   background-color: var(--color-white);
   display: flex;
-  justify-content: space-between;
-  align-content: stretch;
+  /* justify-content: space-between;
+  align-content: stretch; */
   gap: 24px;
   width: 100%;
 }
