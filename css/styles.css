@@ -68,32 +68,28 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ------HEADER------- */
 
 .header {
-  padding-right: 156px;
-  padding-left: 156px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  width: 1158px;
 }
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 100px;
 }
 .header-menu {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-contacts {
   font-style: normal;
@@ -211,8 +207,6 @@ img {
 .advantages-list {
   background-color: var(--color-white);
   display: flex;
-  /* justify-content: space-between;
-  align-content: stretch; */
   gap: 24px;
   width: 100%;
 }
@@ -319,9 +313,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-.team-item-img {
-  max-width: 100%;
-}
+
 /* --------------FOOTER-------------- */
 
 .footer {
